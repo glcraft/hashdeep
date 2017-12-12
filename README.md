@@ -1,3 +1,9 @@
+# MAC COMPILATION VERSION
+Since Mac OS X does not have automake, autobuild and so on, I created a makefile in ./src to build all the softwares and install it with native command of bash on Mac.
+The makefile is extremely simple, it has extremly poor configuration inside. However it does the job well.
+
+Here is the original README.md: 
+
 This is md5deep, a set of cross-platform tools to compute hashes, or
 message digests, for any number of files while optionally recursively
 digging through the directory structure.  It can also take a list of known
